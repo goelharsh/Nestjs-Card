@@ -1,7 +1,12 @@
-import Card from "@/components/Card"
+import Card from '@/components/Card'
+import React from 'react'
 
-export default CardPage(){
-    return (
-        <Card/>
-    )
+const page = () => {
+  return (
+    <div>
+      <Card/>
+    </div>
+  )
 }
+
+export default page
