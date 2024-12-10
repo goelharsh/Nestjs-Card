@@ -1,7 +1,7 @@
-import CarCard from "@/components/Card"
+import Card from "@/components/Card"
 
 export default CardPage(){
     return (
-        <CarCard/>
+        <Card/>
     )
 }

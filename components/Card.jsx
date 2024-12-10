@@ -54,7 +54,7 @@ const Card = () => {
               {images.map((image, index) => (
                 <div
                   key={index}
-                  className="h-10 w-10 rounded-md overflow-hidden border cursor-pointer"
+                  className="h-12 w-12 rounded-md overflow-hidden border cursor-pointer"
                   onClick={() => setHeroImage(image)} // Update hero image on click
                 >
                   <Image
